@@ -36,6 +36,7 @@ function removeFromBag(itemId) {
     localStorage.setItem('bagItems', JSON.stringify(bagItems));
     loadBagItemObjects();
     displayBagIcon();
+    displayBagItems();
     displayBagSummary();
 }
 
